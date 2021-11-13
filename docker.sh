@@ -20,3 +20,4 @@ cd tempdir
 docker build -t projectapp .
 docker run -t -d -p 8080:8080 --name projectrunning projectapp
 docker ps -a
+
